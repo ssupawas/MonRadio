@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B2E830722A8FD3B00BF8081 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2E830622A8FD3B00BF8081 /* AppDelegate.swift */; };
+		3B2E830922A8FD3B00BF8081 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2E830822A8FD3B00BF8081 /* ViewController.swift */; };
+		3B2E830C22A8FD3B00BF8081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E830A22A8FD3B00BF8081 /* Main.storyboard */; };
+		3B2E830E22A8FD3C00BF8081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E830D22A8FD3C00BF8081 /* Assets.xcassets */; };
+		3B2E831122A8FD3C00BF8081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E830F22A8FD3C00BF8081 /* LaunchScreen.storyboard */; };
+		3B2E832122A8FDF500BF8081 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2E831822A8FDF500BF8081 /* Extensions.swift */; };
+		3B2E832222A8FDF500BF8081 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E831A22A8FDF500BF8081 /* Poppins-Light.ttf */; };
+		3B2E832322A8FDF500BF8081 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E831B22A8FDF500BF8081 /* Poppins-Medium.ttf */; };
+		3B2E832422A8FDF500BF8081 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E831C22A8FDF500BF8081 /* Poppins-Regular.ttf */; };
+		3B2E832522A8FDF500BF8081 /* Kanit-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E831D22A8FDF500BF8081 /* Kanit-Light.ttf */; };
+		3B2E832622A8FDF500BF8081 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E831E22A8FDF500BF8081 /* Poppins-Bold.ttf */; };
+		3B2E832722A8FDF500BF8081 /* Kanit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E831F22A8FDF500BF8081 /* Kanit-Medium.ttf */; };
+		3B2E832822A8FDF500BF8081 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E832022A8FDF500BF8081 /* Poppins-MediumItalic.ttf */; };
+		3B2E832B22A909D000BF8081 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2E832A22A909D000BF8081 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B2E830322A8FD3B00BF8081 /* MonRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2E830622A8FD3B00BF8081 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B2E830822A8FD3B00BF8081 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B2E830B22A8FD3B00BF8081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B2E830D22A8FD3C00BF8081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B2E831022A8FD3C00BF8081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B2E831222A8FD3C00BF8081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2E831822A8FDF500BF8081 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3B2E831A22A8FDF500BF8081 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		3B2E831B22A8FDF500BF8081 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		3B2E831C22A8FDF500BF8081 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		3B2E831D22A8FDF500BF8081 /* Kanit-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Light.ttf"; sourceTree = "<group>"; };
+		3B2E831E22A8FDF500BF8081 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		3B2E831F22A8FDF500BF8081 /* Kanit-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Medium.ttf"; sourceTree = "<group>"; };
+		3B2E832022A8FDF500BF8081 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		3B2E832A22A909D000BF8081 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B2E830022A8FD3B00BF8081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2E832B22A909D000BF8081 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B2E82FA22A8FD3B00BF8081 = {
+			isa = PBXGroup;
+			children = (
+				3B2E830522A8FD3B00BF8081 /* MonRadio */,
+				3B2E830422A8FD3B00BF8081 /* Products */,
+				3B2E832922A909CF00BF8081 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B2E830422A8FD3B00BF8081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B2E830322A8FD3B00BF8081 /* MonRadio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B2E830522A8FD3B00BF8081 /* MonRadio */ = {
+			isa = PBXGroup;
+			children = (
+				3B2E830622A8FD3B00BF8081 /* AppDelegate.swift */,
+				3B2E830822A8FD3B00BF8081 /* ViewController.swift */,
+				3B2E830A22A8FD3B00BF8081 /* Main.storyboard */,
+				3B2E830D22A8FD3C00BF8081 /* Assets.xcassets */,
+				3B2E830F22A8FD3C00BF8081 /* LaunchScreen.storyboard */,
+				3B2E831822A8FDF500BF8081 /* Extensions.swift */,
+				3B2E831922A8FDF500BF8081 /* Fonts */,
+				3B2E831222A8FD3C00BF8081 /* Info.plist */,
+			);
+			path = MonRadio;
+			sourceTree = "<group>";
+		};
+		3B2E831922A8FDF500BF8081 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3B2E831A22A8FDF500BF8081 /* Poppins-Light.ttf */,
+				3B2E831B22A8FDF500BF8081 /* Poppins-Medium.ttf */,
+				3B2E831C22A8FDF500BF8081 /* Poppins-Regular.ttf */,
+				3B2E831D22A8FDF500BF8081 /* Kanit-Light.ttf */,
+				3B2E831E22A8FDF500BF8081 /* Poppins-Bold.ttf */,
+				3B2E831F22A8FDF500BF8081 /* Kanit-Medium.ttf */,
+				3B2E832022A8FDF500BF8081 /* Poppins-MediumItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3B2E832922A909CF00BF8081 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B2E832A22A909D000BF8081 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B2E830222A8FD3B00BF8081 /* MonRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B2E831522A8FD3C00BF8081 /* Build configuration list for PBXNativeTarget "MonRadio" */;
+			buildPhases = (
+				3B2E82FF22A8FD3B00BF8081 /* Sources */,
+				3B2E830022A8FD3B00BF8081 /* Frameworks */,
+				3B2E830122A8FD3B00BF8081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonRadio;
+			productName = MonRadio;
+			productReference = 3B2E830322A8FD3B00BF8081 /* MonRadio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B2E82FB22A8FD3B00BF8081 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "suwit supawas";
+				TargetAttributes = {
+					3B2E830222A8FD3B00BF8081 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3B2E82FE22A8FD3B00BF8081 /* Build configuration list for PBXProject "MonRadio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B2E82FA22A8FD3B00BF8081;
+			productRefGroup = 3B2E830422A8FD3B00BF8081 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B2E830222A8FD3B00BF8081 /* MonRadio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B2E830122A8FD3B00BF8081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2E832522A8FDF500BF8081 /* Kanit-Light.ttf in Resources */,
+				3B2E831122A8FD3C00BF8081 /* LaunchScreen.storyboard in Resources */,
+				3B2E830E22A8FD3C00BF8081 /* Assets.xcassets in Resources */,
+				3B2E832622A8FDF500BF8081 /* Poppins-Bold.ttf in Resources */,
+				3B2E830C22A8FD3B00BF8081 /* Main.storyboard in Resources */,
+				3B2E832422A8FDF500BF8081 /* Poppins-Regular.ttf in Resources */,
+				3B2E832222A8FDF500BF8081 /* Poppins-Light.ttf in Resources */,
+				3B2E832722A8FDF500BF8081 /* Kanit-Medium.ttf in Resources */,
+				3B2E832322A8FDF500BF8081 /* Poppins-Medium.ttf in Resources */,
+				3B2E832822A8FDF500BF8081 /* Poppins-MediumItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B2E82FF22A8FD3B00BF8081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2E830922A8FD3B00BF8081 /* ViewController.swift in Sources */,
+				3B2E832122A8FDF500BF8081 /* Extensions.swift in Sources */,
+				3B2E830722A8FD3B00BF8081 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B2E830A22A8FD3B00BF8081 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B2E830B22A8FD3B00BF8081 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B2E830F22A8FD3C00BF8081 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B2E831022A8FD3C00BF8081 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B2E831322A8FD3C00BF8081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B2E831422A8FD3C00BF8081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B2E831622A8FD3C00BF8081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3FG7VN295;
+				INFOPLIST_FILE = MonRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.febcthailand.MonRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B2E831722A8FD3C00BF8081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3FG7VN295;
+				INFOPLIST_FILE = MonRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.febcthailand.MonRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B2E82FE22A8FD3B00BF8081 /* Build configuration list for PBXProject "MonRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2E831322A8FD3C00BF8081 /* Debug */,
+				3B2E831422A8FD3C00BF8081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B2E831522A8FD3C00BF8081 /* Build configuration list for PBXNativeTarget "MonRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2E831622A8FD3C00BF8081 /* Debug */,
+				3B2E831722A8FD3C00BF8081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B2E82FB22A8FD3B00BF8081 /* Project object */;
+}

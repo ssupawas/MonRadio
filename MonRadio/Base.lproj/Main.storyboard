@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Kanit-Medium.ttf">
+            <string>Kanit-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MonRadio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Cs-sU-dth">
+                                <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem title="Item" image="share" width="577.66666666666663" id="ypP-CO-2iK">
+                                        <connections>
+                                            <action selector="Share:" destination="BYZ-38-t0r" id="fSO-e0-wj5"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mon_banner" translatesAutoresizingMaskIntoConstraints="NO" id="J1t-7u-G4W">
+                                <rect key="frame" x="0.0" y="88" width="375" height="160"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kk4-Cr-A95">
+                                <rect key="frame" x="38" y="277" width="299" height="170"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Morning: SW3/SW4-9795 KHz. 31M  05:30-06:00 (YGN time) 
+Everyday  06:30-06:30 (Bkk time)  Everyday </string>
+                                <color key="textColor" red="0.2606298225" green="0.66322504159999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Kanit-Medium" family="Kanit" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pa4-jv-MFl">
+                                <rect key="frame" x="16" y="455" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kk4-Cr-A95" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="A97-46-PqL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2Cs-sU-dth" secondAttribute="bottom" constant="690" id="EIZ-I2-qQe"/>
+                            <constraint firstItem="pa4-jv-MFl" firstAttribute="top" secondItem="kk4-Cr-A95" secondAttribute="bottom" constant="8" id="JCF-Hh-VVW"/>
+                            <constraint firstItem="2Cs-sU-dth" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="JPu-1j-vr6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="J1t-7u-G4W" secondAttribute="bottom" constant="530" id="Kjf-9d-fbo"/>
+                            <constraint firstItem="J1t-7u-G4W" firstAttribute="top" secondItem="2Cs-sU-dth" secondAttribute="bottom" id="NcS-DU-2It"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kk4-Cr-A95" secondAttribute="trailing" constant="38" id="Ngm-d1-1pu"/>
+                            <constraint firstItem="J1t-7u-G4W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OOS-Yy-MSM"/>
+                            <constraint firstItem="2Cs-sU-dth" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VrJ-hx-T3c"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pa4-jv-MFl" secondAttribute="trailing" constant="16" id="XeX-kq-ZA5"/>
+                            <constraint firstItem="pa4-jv-MFl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="aVo-QG-gKu"/>
+                            <constraint firstItem="2Cs-sU-dth" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="f8u-G7-obd"/>
+                            <constraint firstItem="J1t-7u-G4W" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="gl5-8W-YGs"/>
+                            <constraint firstItem="kk4-Cr-A95" firstAttribute="top" secondItem="J1t-7u-G4W" secondAttribute="bottom" constant="29" id="oGv-aW-2wx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kk4-Cr-A95" secondAttribute="bottom" constant="331" id="ozQ-gU-c08"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pa4-jv-MFl" secondAttribute="bottom" constant="302" id="yU5-OU-PP8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="Share" destination="ypP-CO-2iK" id="Iex-vH-RP5"/>
+                        <outlet property="label" destination="pa4-jv-MFl" id="d6y-fi-jCQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="127.83251231527095"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mon_banner" width="551" height="236"/>
+        <image name="share" width="23" height="23"/>
+    </resources>
+</document>
